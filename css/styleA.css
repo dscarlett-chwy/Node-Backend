@@ -1,0 +1,39 @@
+body{
+  background-color: #3F6E75;
+}
+h1,h2{
+  text-align: center;
+  font-size: 3em;
+  color: white;
+}
+h2{
+  font-size: 2em;
+}
+a{
+  color: white;
+  border-bottom: none;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center
+}
+#next, #nextPage{
+  text-align: center;
+  font-size: 1em;
+  font-weight: bold;
+  color: white;
+  width:10%;
+  height:50px;
+  border: none;
+  border-radius: 100px;
+  background-color: #45B97C;
+}
+#nextPage{
+  background-color: #F17199;
+}
+#next:hover, #nextPage:hover {
+  -webkit-filter: saturate(8);
+  filter: saturate(8);
+}

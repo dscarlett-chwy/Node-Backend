@@ -1,0 +1,30 @@
+body{
+  background-color: #F20064;
+}
+a{
+  text-decoration: none;
+  color: #FCA313;
+}
+#clickMe{
+  font-size: 3em;
+  width: 25%;
+  height: 50px;
+  border: none;
+  border-radius: 25px;
+  background-color: #E83C6D;
+  color: #F24F48;
+}
+#clickMe:hover{
+  box-shadow: 3px 3px #F24F48 ;
+}
+.hair{
+  border: 2px solid #DC249D;
+  background-color:#DC249D;
+}
+#nextPage{
+  background-color: #DC249D;
+  width: 10%;
+  height:50;
+  border-radius: 100px;
+  border: none;
+}
